@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>CrypytIn-find the details of any cryptocurrency</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar background h-class-resp">
+      <ul class="navList v-class-resp">
+        <div class="logo"><img src="img/btc.png" alt="logo" /></div>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About Us">About Us</a></li>
+        <li><a href="#blogs">Blog</a></li>
+        <li><a href="#Contact Us">Contact Us</a></li>
+      </ul>
+      <div class="rightNav v-class-resp">
+        <input type="text" name="search" id="search" />
+        <button class="bnt btn-sm">search</button>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+    <section class="background first-section">
+      <div class="box-main">
+        <div class="first-half">
+          <h1 class="heading">
+            GET THE LATEST PRICE OF YOUR FAVOURITE, <br />
+            <b> CRYPTO </b>
+          </h1>
+          <div class="buttons">
+            <button class="btn EXP">EXPLORE MORE</button>
+          </div>
+        </div>
+        <div class="second-half">
+          <img src="img/assets.png" alt="star" />
+        </div>
+      </div>
+      <div class="list">
+        <div class="btc">
+          <img src="img/btc.png" alt="bitcoin" />
+          <div class="details">
+            <p class="name">BITCOIN</p>
+            <p class="price">$<span id="bitcoin"></span></p>
+          </div>
+        </div>
+        <div class="eth">
+          <img src="img/eth.png" alt="ethereum" />
+          <div class="details">
+            <p class="name">ETHEREUM</p>
+            <p class="price">$<span id="ethereum"></span></p>
+          </div>
+        </div>
+        <div class="doge">
+          <img src="img/doge.png" alt="dogecoin" />
+          <div class="detail">
+            <p class="name">DOGECOIN</p>
+            <p class="price">$<span id="dogecoin"></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/script.js"></script>
+    <script src="/resp.js"></script>
+  </body>
+</html>
